@@ -1,0 +1,34 @@
+footer {
+      background-color: darkolivegreen;
+      color: rgb(218, 198, 145);
+      font-weight: bold;
+      padding: 10px 0 4px 0;
+      text-align: center;
+      width: 100%;
+}
+
+footer a {
+            color: rgb(218, 198, 145);
+            font-weight: bold;
+            display:inline-block;
+            padding: 8px;
+            text-decoration: none;
+}
+
+footer a:hover {
+      background-color: rgb(218, 198, 145);
+      color: darkolivegreen;
+}
+
+footer a:focus {
+      background-color: darkolivegreen;
+      color: rgb(218, 198, 145);
+      outline: none;
+}
+
+footer img {
+      height:22px;
+      margin-left:3px;
+      vertical-align:text-bottom
+
+}

@@ -1,0 +1,97 @@
+/* Mobile First View */
+
+h2 {
+      display: none;
+}
+/*this is my background image for my aside area. i added some margins in to give a "border" look around the main image and the aside */
+aside {
+      background-color:rgb(218, 198, 145);
+      background-image: url('../images/lightgrey\ square.png');
+      background-repeat:no-repeat ;
+      background-size: cover;
+      background-position: center;
+      font-size: 120%;
+      padding: 5px 0px;
+      text-align: center;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+}
+
+aside a {
+      color: black;
+      font-size: 21px;
+      font-weight: bold;
+      display:block;
+      padding: 5px 0;
+      text-decoration: none;
+      width: 100%;
+}
+
+aside a:hover {
+      background-color: darkolivegreen;
+      color: rgb(218, 198, 145);
+
+}
+
+aside a:focus {
+      background-color: black;
+      color:white;
+      outline:none
+}
+
+#main_image {
+      margin-top: 10px;
+      width: 100%
+}
+
+article {
+      background-color: black;
+      color: darkolivegreen;
+      font-size: 120%;
+      font-weight: bold;
+      padding: 0 10px;
+}
+
+article a {
+      color: white;
+      padding: 5px;
+      text-decoration: none;
+}
+
+article a:hover {
+      background-color: white;
+      color: black
+}
+
+article a:focus {
+      background-color: white;
+      color: black;
+      text-decoration: none;
+}
+
+/* Medium Devices (Landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+      main {
+            display: flex;
+      }
+
+      aside {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            float: left;
+            justify-content: center;
+            width: 30%;
+      }
+
+      section {
+            display: inline;
+            float: right;
+            width: 70%;
+
+      }
+
+
+}
